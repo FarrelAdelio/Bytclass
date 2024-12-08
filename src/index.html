@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html style="scroll-behavior: smooth;">
 
 <head>
     <meta charset="UTF-8">
@@ -17,15 +17,15 @@
     <!-- NAVIGASI BAR -->
     <div class="flex justify-between mt-3 mx-8 fixed left-0 right-0 top-0 z-10">
         <div class="md:flex hidden flex-col justfy-between font-semibold w-32">
-            <h1 class="text-sm tracking-wide">Bytclass</h1>
+            <a href="index.html" class="text-sm tracking-wide">Bytclass</a>
             <h1 class="text-zinc-400 text-sm">TRPL 1B Malam</h1>
         </div>
 
         <ul class="flex text-sm font-semibold justify-between mx-auto bg-zinc-700 py-3 px-2 rounded-full bg-opacity-70">
-            <li><a href="404.html" class="bg-zinc-500 py-2 px-3 rounded-full">Home</a></li>
-            <li><a href="404.html" class="py-2 px-5 rounded-full">Project</a></li>
-            <li><a href="404.html" class=" py-2 px-5 rounded-full">Entries</a></li>
-            <li><a href="about.html" class=" py-2 px-5 rounded-full">About</a></li>
+            <li><a href="index.html" class=" py-2 px-3 bg-zinc-500 rounded-full">Home</a></li>
+            <li><a href="about.html" class="py-2 px-5  rounded-full">About</a></li>
+            <li><a href="#features" class=" py-2 px-5 rounded-full">Features</a></li>
+            <li><a href="#contact" class=" py-2 px-5 rounded-full">Contact</a></li>
         </ul>
 
         <div class="md:flex hidden flex-col justify-between text-sm text-right pl-16">
@@ -70,7 +70,7 @@
     </div>
 
     <!-- Content Menu -->
-    <div class="flex flex-col mt-16 gap-10">
+    <div class="flex flex-col mt-16 gap-10" id="features">
         <div class="w-full rounded-xl bg-white hover:scale-95 transition-all delay-75 h-[400px] md:h-[500px]">
             <h1></h1>
         </div>
@@ -117,7 +117,7 @@
     </div>
 
     <!-- Feed Back -->
-    <div class="flex justify-between mt-36 mb-40">
+    <div class="flex justify-between mt-36 mb-40" id="contact">
         <div class="text-sm">
             <h1 class="font-poppins font-bold tracking-wide">Any question?</h1>
             <p class="text-zinc-400">Contact us with gmail.</p>
