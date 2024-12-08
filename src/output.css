@@ -558,8 +558,16 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
+}
+
+.bottom-6 {
+  bottom: 1.5rem;
 }
 
 .left-0 {
@@ -582,6 +590,114 @@ video {
   top: 10rem;
 }
 
+.left-10 {
+  left: 2.5rem;
+}
+
+.left-32 {
+  left: 8rem;
+}
+
+.left-28 {
+  left: 7rem;
+}
+
+.right-28 {
+  right: 7rem;
+}
+
+.bottom-7 {
+  bottom: 1.75rem;
+}
+
+.bottom-5 {
+  bottom: 1.25rem;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.right-32 {
+  right: 8rem;
+}
+
+.bottom-1 {
+  bottom: 0.25rem;
+}
+
+.bottom-2 {
+  bottom: 0.5rem;
+}
+
+.bottom-3 {
+  bottom: 0.75rem;
+}
+
+.right-10 {
+  right: 2.5rem;
+}
+
+.right-1 {
+  right: 0.25rem;
+}
+
+.right-52 {
+  right: 13rem;
+}
+
+.-left-9 {
+  left: -2.25rem;
+}
+
+.-left-1 {
+  left: -0.25rem;
+}
+
+.-left-8 {
+  left: -2rem;
+}
+
+.-right-3 {
+  right: -0.75rem;
+}
+
+.-right-8 {
+  right: -2rem;
+}
+
+.right-6 {
+  right: 1.5rem;
+}
+
+.right-72 {
+  right: 18rem;
+}
+
+.left-1\/2 {
+  left: 50%;
+}
+
+.left-52 {
+  left: 13rem;
+}
+
+.left-72 {
+  left: 18rem;
+}
+
+.left-80 {
+  left: 20rem;
+}
+
+.left-96 {
+  left: 24rem;
+}
+
+.right-24 {
+  right: 6rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -593,6 +709,11 @@ video {
 .mx-10 {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .mx-8 {
@@ -624,6 +745,10 @@ video {
 
 .mb-7 {
   margin-bottom: 1.75rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
 }
 
 .mt-16 {
@@ -674,6 +799,23 @@ video {
   height: 400px;
 }
 
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.h-52 {
+  height: 13rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
 .w-11\/12 {
   width: 91.666667%;
 }
@@ -688,6 +830,14 @@ video {
 
 .w-5 {
   width: 1.25rem;
+}
+
+.w-56 {
+  width: 14rem;
+}
+
+.w-\[35\%\] {
+  width: 35%;
 }
 
 .w-\[40\%\] {
@@ -711,8 +861,16 @@ video {
   flex-direction: column-reverse;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .gap-1 {
@@ -739,12 +897,24 @@ video {
   gap: 2rem;
 }
 
+.gap-y-14 {
+  row-gap: 3.5rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-2 {
@@ -755,9 +925,19 @@ video {
   border-bottom-width: 2px;
 }
 
+.border-emerald-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(5 150 105 / var(--tw-border-opacity, 1));
+}
+
 .border-green-700 {
   --tw-border-opacity: 1;
   border-color: rgb(21 128 61 / var(--tw-border-opacity, 1));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 
 .border-zinc-400 {
@@ -804,8 +984,40 @@ video {
   background-color: rgb(39 39 42 / var(--tw-bg-opacity, 1));
 }
 
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
+}
+
+.bg-yellow-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(202 138 4 / var(--tw-bg-opacity, 1));
+}
+
+.bg-yellow-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 204 21 / var(--tw-bg-opacity, 1));
+}
+
+.bg-yellow-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity, 1));
+}
+
 .bg-opacity-70 {
   --tw-bg-opacity: 0.7;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-1\.5 {
+  padding: 0.375rem;
+}
+
+.p-7 {
+  padding: 1.75rem;
 }
 
 .px-2 {
@@ -831,6 +1043,11 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pb-4 {
@@ -886,6 +1103,11 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -952,6 +1174,11 @@ video {
 .text-zinc-400 {
   --tw-text-opacity: 1;
   color: rgb(161 161 170 / var(--tw-text-opacity, 1));
+}
+
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity, 1));
 }
 
 .underline {
