@@ -12,11 +12,20 @@ module.exports = {
       width: {
         '500': '500px'
       },
+      width: {
+        '550': '550px'
+      },
+      width: {
+        '40': '40%'
+      },
       height: {
         '500': '500px'
       },
       height: {
         '400': '400px'
+      },
+      height: {
+        '250': '250px'
       },
     },
   },
